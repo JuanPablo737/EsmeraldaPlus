@@ -1,0 +1,12 @@
+C:\Users\USUARIO\EsmeraldaPlus\src\EsmeraldaPlus.Core\bin\Debug\netcoreapp3.1\EsmeraldaPlus.Core.deps.json
+C:\Users\USUARIO\EsmeraldaPlus\src\EsmeraldaPlus.Core\bin\Debug\netcoreapp3.1\EsmeraldaPlus.Core.dll
+C:\Users\USUARIO\EsmeraldaPlus\src\EsmeraldaPlus.Core\bin\Debug\netcoreapp3.1\EsmeraldaPlus.Core.pdb
+C:\Users\USUARIO\EsmeraldaPlus\src\EsmeraldaPlus.Core\obj\Debug\netcoreapp3.1\EsmeraldaPlus.Core.csprojAssemblyReference.cache
+C:\Users\USUARIO\EsmeraldaPlus\src\EsmeraldaPlus.Core\obj\Debug\netcoreapp3.1\EsmeraldaPlus.Core.AssemblyInfoInputs.cache
+C:\Users\USUARIO\EsmeraldaPlus\src\EsmeraldaPlus.Core\obj\Debug\netcoreapp3.1\EsmeraldaPlus.Core.AssemblyInfo.cs
+C:\Users\USUARIO\EsmeraldaPlus\src\EsmeraldaPlus.Core\obj\Debug\netcoreapp3.1\EsmeraldaPlus.Core.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\EsmeraldaPlus\src\EsmeraldaPlus.Core\obj\Debug\netcoreapp3.1\EsmeraldaPlus.Core.dll
+C:\Users\USUARIO\EsmeraldaPlus\src\EsmeraldaPlus.Core\obj\Debug\netcoreapp3.1\EsmeraldaPlus.Core.pdb
+C:\Users\USUARIO\EsmeraldaPlus\src\EsmeraldaPlus.Core\bin\Debug\netcoreapp3.1\EsmeraldaPlus.Core.runtimeconfig.json
+C:\Users\USUARIO\EsmeraldaPlus\src\EsmeraldaPlus.Core\bin\Debug\netcoreapp3.1\EsmeraldaPlus.Core.runtimeconfig.dev.json
+C:\Users\USUARIO\EsmeraldaPlus\src\EsmeraldaPlus.Core\obj\Debug\netcoreapp3.1\EsmeraldaPlus.Core.genruntimeconfig.cache
