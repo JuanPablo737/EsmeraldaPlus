@@ -1532,6 +1532,9 @@
         }
       },
       "EsmeraldaPlus.Core/1.0.0": {
+        "dependencies": {
+          "MySql.Data.EntityFrameworkCore": "8.0.22"
+        },
         "runtime": {
           "EsmeraldaPlus.Core.dll": {}
         },
