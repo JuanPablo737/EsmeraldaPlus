@@ -1,0 +1,84 @@
+﻿
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="~/css/contact.css" rel="stylesheet" />
+
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href=".. /css/fonts.css ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="../image/logo.png">
+        </div>
+
+        <div class="search">
+            <input type="search" class="bar-search" placeholder="Buscar....">
+        </div>
+
+        <div class="login-page">
+            <a href="Login.html" class="login">Ingresar</a>
+            <a href="register.html" class="register">registrarse</a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#"><span class="icon-home"></span>Inicio</a></li>
+
+                <li>
+                    <a href="#"><span class="icon-cart"></span>Productos</a>
+                    <!--<ul>
+                        <li><a href="#">Gel AntiBacterial</a></li>
+                        <li><a href="#">Trajes Antifluido</a></li>
+                        <li><a href="#">Tapabocas</a></li>
+                        <li><a href="#">Alcohol AntiBacterial</a></li>
+                    </ul>-->
+                </li>
+
+                <li>
+                    <a href="about us.html"><span class="icon-price-tag"></span>Quienes somos</a>
+                    <!--<ul>
+                        <li><a href="#">Mision y Vision</a></li>
+                        <li><a href="#">Objetivos y Valores</a></li>
+                    </ul>-->
+                </li>
+
+                <li><a href="contact.html"><span class="icon-envelop"></span>Contactanos</a></li>
+            </ul>
+        </nav>
+
+
+
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer class="footer">
+        <div class="contacto">
+            <div class="siguenos">
+                <p>siguenos</p>
+                <span class="icon-facebook"></span></a>
+                <span class="icon-twitter"></span></a>
+                <span class="icon-instagram"></span>
+            </div>
+
+            <div class="contactanos">
+                <p>Contactanos</p>
+                <a href="#">6852899</a>
+                <a href="#">3214567899</a>
+            </div>
+
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>

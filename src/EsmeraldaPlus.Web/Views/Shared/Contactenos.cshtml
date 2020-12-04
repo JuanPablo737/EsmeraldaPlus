@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewData["Title"] = "Contactenos";
+
+}
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Contact</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+
+</head>
+<body>
+
+
+    <header>
+        <div class="logo">
+            <img src="../image/logo.png">
+        </div>
+
+        <div class="search">
+            <input type="search" class="bar-search" placeholder="Buscar....">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#"><span class="icon-home"></span>Inicio</a></li>
+
+                <li>
+                    <a href="#"><span class="icon-cart"></span>Productos</a>
+                    <!--<ul>
+                        <li><a href="#">Gel AntiBacterial</a></li>
+                        <li><a href="#">Trajes Antifluido</a></li>
+                        <li><a href="#">Tapabocas</a></li>
+                        <li><a href="#">Alcohol AntiBacterial</a></li>
+                    </ul>-->
+                </li>
+
+                <li>
+                    <a href="about us.html"><span class="icon-price-tag"></span>Quienes somos</a>
+                    <!--<ul>
+                        <li><a href="#">Mision y Vision</a></li>
+                        <li><a href="#">Objetivos y Valores</a></li>
+                    </ul>-->
+                </li>
+
+                <li><a href="#"><span class="icon-envelop"></span>Contactanos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <form action="">
+        <h1>Contacto</h1>
+        <input type="text" name="Nombre-Cliente" placeholder="Nombres" required="">
+        <input type="email" name="Correo" placeholder="Correo" required="">
+        <input type="text" name="Telefono" placeholder="Telefono" required="">
+        <textarea name="mensaje" placeholder="Ingrese aqui su mensaje" required=""></textarea>
+        <input type="submit" value="Enviar" id="boton">
+
+    </form>
+
+    <div class="mapa">
+        <h1>Ubicacion</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.745965330832!2d-74.16063678573687!3d4.639344643479545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9c3ababaf9d5%3A0x72efa6111527e06c!2zQ2wuIDIgIzg2LCBCb2dvdMOh!5e0!3m2!1ses!2sco!4v1606875074020!5m2!1ses!2sco" width="470" height="380" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+
+
+    <footer class="footer">
+        <div class="contacto">
+            <div class="siguenos">
+                <p>siguenos</p>
+                <span class="icon-facebook"></span></a>
+                <span class="icon-twitter"></span></a>
+                <span class="icon-instagram"></span>
+            </div>
+
+            <div class="contactanos">
+                <p>Contactanos</p>
+                <a href="#">6852899</a>
+                <a href="#">3214567899</a>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+</body>
+</html>

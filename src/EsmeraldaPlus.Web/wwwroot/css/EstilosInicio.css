@@ -1,0 +1,231 @@
+﻿body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial,"Times New roman";
+    background: #444;
+    color: #fff;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: #000;
+}
+
+.logo {
+    float: left;
+    width: 15%;
+}
+
+    .logo img {
+        width: 100%;
+        height: 100px;
+    }
+
+.bar-search {
+    border: 0;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background: #000;
+    color: #fff;
+    float: left;
+    border-bottom: 1px solid #fff;
+    margin-left: 40px;
+}
+
+.login-page {
+    margin-top: 40px;
+    float: right;
+}
+
+    .login-page .login {
+        padding: 10px;
+        border-radius: 15px;
+        background: green;
+        color: #fff;
+        font-size: 15px;
+        margin-left: 20px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .login-page .login:active {
+            background: #444;
+            color: #000;
+            padding: 15px;
+        }
+
+    .login-page .register {
+        padding: 10px;
+        border-radius: 15px;
+        background: green;
+        color: #fff;
+        font-size: 15px;
+        margin-right: 35px;
+        margin-left: 10px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .login-page .register:active {
+            background: #444;
+            color: #000;
+            padding: 15px;
+        }
+
+nav {
+    margin: auto;
+}
+
+    nav span {
+        margin-right: 10px;
+    }
+
+    nav ul {
+        padding-top: 35px;
+        font-size: 20px;
+        float: right;
+        list-style: none;
+    }
+
+        nav ul li {
+            float: left;
+        }
+
+            nav ul li a {
+                text-decoration: none;
+                color: #fff;
+                padding-right: 40px;
+            }
+
+                nav ul li a:hover {
+                    background: green;
+                    padding: 20px;
+                }
+
+.home-page {
+    width: 1000px;
+    min-height: calc(100vh - 100px - 300px);
+    margin: auto;
+}
+
+    .home-page h1 {
+        font-size: 70px;
+        color: #fff;
+        text-align: center;
+        font-family: "Times New Roman";
+    }
+
+.home-pagw h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.home-page div {
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+    .home-page div img {
+        width: 250px;
+        height: 150px;
+        margin-left: 30px;
+        border-radius: 20px;
+        font-size: 70px;
+    }
+
+.comprar-producto {
+    margin-top: 10px;
+}
+
+    .comprar-producto a {
+        margin-left: 110px;
+        margin-right: 105px;
+        padding: 10px;
+        background: green;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 20px;
+        font-size: 20px;
+    }
+
+        .comprar-producto a:hover {
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+footer {
+    width: 100%;
+    height: auto;
+    background: red;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background: #000;
+    color: #FFF;
+}
+
+    .footer .contacto {
+        margin-left: 500px;
+        float: left;
+    }
+
+        .footer .contacto .siguenos {
+            float: left;
+        }
+
+            .footer .contacto .siguenos p {
+                text-align: center;
+                font-family: "Times New Roman";
+                font-size: 25px;
+                margin-left: 20px;
+                margin-bottom: 10px;
+            }
+
+            .footer .contacto .siguenos span {
+                margin-left: 20px;
+                font-size: 25px;
+                cursor: pointer;
+            }
+
+        .footer .contacto .contactanos {
+            float: left;
+            margin-left: 50px;
+        }
+
+            .footer .contacto .contactanos p {
+                text-align: center;
+                font-family: "Times New Roman";
+                font-size: 25px;
+                margin-left: 20px;
+                margin-bottom: 10px;
+            }
+
+            .footer .contacto .contactanos a {
+                text-align: center;
+                font-size: 15px;
+                display: block;
+                margin-left: 15px;
+            }
+
+                .footer .contacto .contactanos a:hover {
+                    color: red;
+                }
+
+@media(max-width: 800px) {
+    .search, .login-page, nav {
+        display: none;
+    }
+}

@@ -1,0 +1,84 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    background: url(../image/star.jpg);
+}
+/*Titulo Principal*/
+h1 {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+/*formulario*/
+.form-inicio-sesion {
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background: #000;
+    border-radius: 10px;
+}
+/*Titulo de Formulario*/
+.titulo {
+    margin-top: 20px;
+    background: blue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 20px;
+    border-bottom: solid green;
+}
+/*Contenido del Formulario*/
+.contenido-input {
+    margin-top: 10px;
+    padding: 10px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*Todos los inputs*/
+input {
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: 1px solid dargray;
+}
+/*Tamaño de los inputs*/
+.input-100 {
+    width: 100%;
+}
+/*Parrafos de Terminos y registrarse*/
+p {
+    margin-bottom: 10px;
+    margin-top: 7px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+}
+/*Boton de Registrarse*/
+.btn-iniciar {
+    margin: auto;
+    padding: 10px 40px;
+    background: red;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btn-iniciar {
+    transform: scale(1.05);
+}
+
+@media(max-width: 800px) {
+    .form-inicio-sesion {
+        width: 95%;
+    }
+}

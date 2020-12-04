@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using EsmeraldaPlus.Core.Domain;
 
-namespace EsmeraldaPlus.Core
+namespace EsmeraldaPlus.Infrastructure.Data
 {
     public partial class EsmeraldaPlusDbContext : DbContext
     {
